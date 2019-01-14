@@ -1,5 +1,10 @@
 #include <iostream>
 
+void future()
+{
+    std::cout << "Libra" << std::endl;
+}
+
 
 void cheer(int number){
 
@@ -22,6 +27,7 @@ int main() {
     cheer(30);
     count(26);
     greet();
+    future();
 
 
     return 0;
