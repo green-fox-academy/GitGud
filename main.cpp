@@ -9,8 +9,7 @@ void future(int param1, int param2)
 
 void cheer(int number)
 {
-    std::cout << "C++ bitches!" << std::endl;
-    std::cout << number << std::endl;
+    std::cout << "Cheer for the " << number << std::endl;
 }
 
 void count(int age)
