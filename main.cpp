@@ -18,9 +18,11 @@ void count(int age)
     std::cout << age << std::endl;
 }
 
-void greet()
+void greet(std::string name , int month)
 {
-    std::cout << "I'm Akos Kapeter" << std::endl;
+    name = "I'm Akos Kapeter";
+    month = 4;
+    std::cout <<name << " " << month<< std::endl;
 }
 
 int main()
@@ -28,7 +30,7 @@ int main()
 
     cheer(30);
     count(26);
-    greet();
+    greet("asd",1);
     future(1);
 
     return 0;
