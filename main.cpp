@@ -1,8 +1,9 @@
 #include <iostream>
 
 
-void cheer(){
+void cheer(int number){
     std::cout << "HEY GITGODS!" << std::endl;
+    std::cout << number << std::endl;
 }
 
 void count()
@@ -12,6 +13,7 @@ void count()
 
 int main() {
 
+    cheer(30);
     count();
 
     return 0;
