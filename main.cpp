@@ -27,7 +27,7 @@ void greet()
 int main()
 {
 
-    cheer(30);
+    cheer(30, 50);
     count(26);
     greet();
     future(1);
