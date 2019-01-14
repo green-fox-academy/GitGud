@@ -21,20 +21,21 @@ void count(int age, int height)
     std::cout << "My age: " << age << "My height: " << height << std::endl;
 }
 
-void greet(std::string name , int month)
+
+void greet(std::string parameter, int month)
 {
-    name = "I'm Akos Kapeter";
-    month = 4;
-    std::cout <<name << " " << month<< std::endl;
+    std::cout << "Greetings for the " << parameter <<  std::endl;
+    std::cout << parameter << " " << month << std::endl;
     std::cout << "Greetings!" << std::endl;
+
 
 }
 
 int main()
 {
-    cheer(30, 50);
-    greet("asd",1);
     count(26, 185);
+    cheer(30, 50);
+    greet("Akos", 4);
     future(1, 2);
 
     return 0;
