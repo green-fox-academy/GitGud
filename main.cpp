@@ -1,10 +1,10 @@
 #include <iostream>
 
-void future(int paramater)
+void future(int param1, int param2)
 {
     std::cout << "Libra" << std::endl;
     std::cout << "Dog" << std::endl;
-    std::cout << paramater << std::endl;
+    std::cout << param1 << ", " << param2 << std::endl;
 }
 
 void cheer(int number)
@@ -13,9 +13,9 @@ void cheer(int number)
     std::cout << number << std::endl;
 }
 
-void count(int age)
+void count(int age, int height)
 {
-    std::cout << age << std::endl;
+    std::cout << "My age: " << age << "My height: " << height << std::endl;
 }
 
 void greet(std::string name , int month)
@@ -23,15 +23,17 @@ void greet(std::string name , int month)
     name = "I'm Akos Kapeter";
     month = 4;
     std::cout <<name << " " << month<< std::endl;
+    std::cout << "Greetings!" << std::endl;
+
 }
 
 int main()
 {
-
     cheer(30);
-    count(26);
     greet("asd",1);
-    future(1);
+    count(26, 185);
+    future(1, 2);
+
 
     return 0;
 }
