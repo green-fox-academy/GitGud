@@ -18,16 +18,16 @@ void count(int age, int height)
     std::cout << "My age: " << age << "My height: " << height << std::endl;
 }
 
-void greet()
+void greet(std::string parameter)
 {
-    std::cout << "I'm Akos Kapeter" << std::endl;
+    std::cout << "Greetings for the " << std::endl;
 }
 
 int main()
 {
     cheer(30);
     count(26, 185);
-    greet();
+    greet("Gods");
     future(1);
 
     return 0;
