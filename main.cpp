@@ -7,7 +7,7 @@ void future()
 
 void cheer(int number)
 {
-    std::cout << "HEY GITGODS!" << std::endl;
+    std::cout << "C++ bitches!" << std::endl;
     std::cout << number << std::endl;
 }
 
