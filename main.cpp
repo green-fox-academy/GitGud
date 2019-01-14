@@ -7,10 +7,11 @@ void future(int paramater)
     std::cout << paramater << std::endl;
 }
 
-void cheer(int number)
+void cheer(int number, int anotherParam)
 {
     std::cout << "C++ bitches!" << std::endl;
     std::cout << number << std::endl;
+    std::cout << anotherParam << std::endl;
 }
 
 void count(int age)
