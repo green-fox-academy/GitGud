@@ -1,8 +1,9 @@
 #include <iostream>
 
-void future()
+void future(int paramater)
 {
     std::cout << "Libra" << std::endl;
+    std::cout << paramater << std::endl;
 }
 
 void cheer(int number)
@@ -21,12 +22,13 @@ void greet()
     std::cout << "I'm Akos Kapeter" << std::endl;
 }
 
-int main() {
+int main()
+{
 
     cheer(30);
     count(26);
     greet();
-    future();
+    future(1);
 
     return 0;
 }
