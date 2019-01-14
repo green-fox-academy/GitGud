@@ -3,6 +3,8 @@
 void future()
 {
     std::cout << "Libra" << std::endl;
+    std::cout << "Dog" << std::endl;
+
 }
 
 
