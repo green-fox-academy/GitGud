@@ -7,9 +7,8 @@ void future()
 
 }
 
-
-void cheer(int number){
-
+void cheer(int number)
+{
     std::cout << "HEY GITGODS!" << std::endl;
     std::cout << number << std::endl;
 }
@@ -30,7 +29,6 @@ int main() {
     count(26);
     greet();
     future();
-
 
     return 0;
 }
