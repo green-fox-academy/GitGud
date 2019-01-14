@@ -24,7 +24,6 @@ void greet()
 
 int main()
 {
-
     cheer(30);
     count(26);
     greet();
