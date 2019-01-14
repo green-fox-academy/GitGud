@@ -16,7 +16,7 @@ void cheer(int number, int anotherParam)
 
 void count(int age)
 {
-    std::cout << age << std::endl;
+    std::cout << "Counting the countless " << age << std::endl;
 }
 
 void greet()
