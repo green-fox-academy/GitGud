@@ -20,7 +20,7 @@ void count(int age, int height)
 
 void greet(std::string parameter)
 {
-    std::cout << "Greetings for the " << std::endl;
+    std::cout << "Greetings for the " << parameter <<  std::endl;
 }
 
 int main()
