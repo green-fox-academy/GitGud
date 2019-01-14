@@ -3,6 +3,7 @@
 void future(int paramater)
 {
     std::cout << "Libra" << std::endl;
+    std::cout << "Dog" << std::endl;
     std::cout << paramater << std::endl;
 }
 
