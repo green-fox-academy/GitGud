@@ -13,9 +13,9 @@ void cheer(int number)
     std::cout << number << std::endl;
 }
 
-void count(int age)
+void count(int age, int height)
 {
-    std::cout << age << std::endl;
+    std::cout << "My age: " << age << "My height: " << height << std::endl;
 }
 
 void greet()
@@ -25,9 +25,8 @@ void greet()
 
 int main()
 {
-
     cheer(30);
-    count(26);
+    count(26, 185);
     greet();
     future(1, 2);
 
