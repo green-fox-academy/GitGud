@@ -1,18 +1,20 @@
 #include <iostream>
 
 
-void cheer(){
+void cheer()
+{
     std::cout << "HEY GITGODS!" << std::endl;
 }
 
-void count()
+void count(int age)
 {
-    std::cout << "26" << std::endl;
-};
+    std::cout << age << std::endl;
+}
 
 int main() {
 
-    count();
+    count(26);
+    cheer();
 
     return 0;
 }
